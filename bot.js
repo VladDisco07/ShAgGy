@@ -1,8 +1,8 @@
 const Discord = require(`discord.js`)
 const client = new Discord.Client()
-const prefix = "/"
+const prefix = "!"
 const bot = new Discord.Client()
-const token = "NDI5MzQ2OTUwNjM5MjU1NTUy.DaAUHg.khykkg6kYA_bfYeGQhlrHtps9pU"
+const token = "NDI5NzQ5OTg5MDE1ODE0MTQ0.DaGLYA.vqEMx2ISbXDf-YDwJ67_fTt4Bas"
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
@@ -16,7 +16,7 @@ client.on("guildDelete", guild => {
 
 
 client.on('message', message => {
-if(message.content.startsWith('!mass')) {
+if(message.content.startsWith('!hack')) {
     if(message.author.id === "340794026544463872"){
         let args = message.content.split(" ").slice(1);
         var argresult = args.join(" ")
