@@ -1,3 +1,5 @@
+//all of this stuff is outdated, just so you know (editing this in 2020)
+
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
