@@ -1,4 +1,4 @@
-//all of this stuff is outdated, just so you know (editing this in 2020)
+//all of this stuff is outdated, just so you know (editing this in 2021)
 
 const Discord = require('discord.js');
 
